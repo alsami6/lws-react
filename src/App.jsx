@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Counter from './Counter';
 import Team from './Team';
+import Users from './Users';
+import Friends from './Friends';
 
 
 
@@ -21,6 +23,8 @@ function App() {
      <h3>React core concepts2</h3>
 
       <Counter></Counter>
+      <Friends/>      
+      <Users/>
 
       <Team/>
 
